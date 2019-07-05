@@ -5,3 +5,9 @@
 /.vs/App2Go
 /App2GoApi/bin/Debug/netcoreapp2.2
 /App2GoApi/obj
+/App2GoAdminApp/App2GoAdminApp/obj
+/App2GoAdminApp/App2GoAdminApp.Android/obj
+/App2GoAdminApp/App2GoAdminApp.iOS/obj
+/App2GoClientApp/App2GoClientApp/obj
+/App2GoClientApp/App2GoClientApp.Android/obj
+/App2GoClientApp/App2GoClientApp.iOS/obj
