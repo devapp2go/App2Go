@@ -8,13 +8,21 @@ class Register extends React.Component {
         <form>
           <div>
             <h2 className="etiqueta">Registrate añadiendo tus datos</h2>
-            <input type="text" placeholder="Nombre" />
+            <input className="text-box" type="text" placeholder="Nombre" />
             <br />
-            <input type="text" placeholder="Apellido" />
+            <input className="text-box" type="text" placeholder="Apellido" />
             <br />
-            <input type="text" placeholder="Numero de telefono" />
+            <input
+              className="text-box"
+              type="text"
+              placeholder="Numero de telefono"
+            />
             <br />
-            <input type="email" placeholder="Correo Electrónico" />
+            <input
+              className="text-box"
+              type="email"
+              placeholder="Correo Electrónico"
+            />
             <br />
             <input type="checkbox" />
             <span className="etiqueta">
