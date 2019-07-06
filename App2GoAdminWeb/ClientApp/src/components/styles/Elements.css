@@ -1,0 +1,28 @@
+.element-column{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.element-column:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.element_button{
+    height: 100px;
+    width: 100px;
+    background:rgba(255, 255, 255,.25);
+    border-radius: 50%;
+}
+
+.element_img{
+    width: 70%;
+}
+
+.element_submit{
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
