@@ -1,10 +1,16 @@
-import React from 'react';
-import { Route } from 'react-router';
-import Layout from './components/Layout';
-import Login from './components/Login';
+import React from "react";
+import Layout from "./components/Layout";
+import Login from "./components/Login";
+import PageRegister from "./pages/PageRegister";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 export default () => (
   <Layout>
-    <Route exact path='/' component={Login} />
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Login} />
+        <Route exact path="/pageregister" component={PageRegister} />
+      </Switch>
+    </BrowserRouter>
   </Layout>
 );
