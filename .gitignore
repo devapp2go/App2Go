@@ -11,3 +11,7 @@
 /App2GoClientApp/App2GoClientApp/obj
 /App2GoClientApp/App2GoClientApp.Android/obj
 /App2GoClientApp/App2GoClientApp.iOS/obj
+/App2GoAdminApp/App2GoAdminApp.Android/bin/Debug
+/App2GoClientApp/App2GoClientApp/bin/Debug/netstandard2.0
+/App2GoClientApp/App2GoClientApp.Android/bin/Debug
+/App2GoAdminApp/App2GoAdminApp/bin/Debug/netstandard2.0
