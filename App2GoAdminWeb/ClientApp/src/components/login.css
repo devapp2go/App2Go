@@ -1,0 +1,94 @@
+.text{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.232836px;
+
+}
+
+.background{
+    background-image: linear-gradient(to bottom, #006595, #00D3DD)
+}
+
+.oauth-google{
+    width: 280px;
+    height: 45px;
+    background-color: #E24235;
+    border-radius: 4px;
+    font-size: 15px;
+    margin: auto;
+    justify-content: center;
+
+}
+.oauth-fb{
+    width: 280px;
+    height: 45px;
+    background-color: #3B5798;
+    border-radius: 4px;
+    font-size: 15px;
+    margin: auto;
+    justify-content: center;
+}
+
+button{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    background: #0089C9;
+    border:#0089C9;
+    border-radius: 4px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.hrlogin{
+    color:white;
+    background-color: white;
+    width: 85%;
+}
+
+.greeting{
+    padding-top: 62px;
+}
+
+
+
+.logo{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.oauth-img{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.input-login{
+    height: 45px;
+    width: 280px;
+    border-radius: 6px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    border:none;
+    font-size: 15px;
+    padding-left: 50px;
+}
+
+.a-login{
+    font-size: 13px;
+}
+
+.div-button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
