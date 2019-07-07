@@ -8,9 +8,12 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 export default () => (
   <Layout>
-    <
-    <Route exact path="/" component={Principal} />
-    <Route path="/counter" component={Counter} />
-    <Route path="/fetch-data/:startDateIndex?" component={FetchData} />
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Principal} />
+        <Route path="/counter" component={Counter} />
+        <Route path="/fetch-data/:startDateIndex?" component={FetchData} />
+      </Switch>
+    </BrowserRouter>
   </Layout>
 );
