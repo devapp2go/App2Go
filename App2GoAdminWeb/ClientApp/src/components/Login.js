@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { connect } from "react-redux";
 import "./login.css";
 import { Input, Button } from "reactstrap";
+import { Link } from "react-router-dom";
 
 class Greeting extends React.Component {
   render() {
@@ -44,7 +45,8 @@ class LoginData extends React.Component {
           Haz click aquí
         </a>
         <div class="div-button">
-          <button>INICIAR SESIÓN</button>
+        <Link to="/pageconfig" className="boton" >INICIAR SESIÓN
+          </Link>
         </div>
         <hr class="hrlogin" />
       </div>
@@ -58,7 +60,8 @@ class Register extends React.Component {
       <div>
         <small>¿Aún no tienes una App?</small>
         <div class="div-button">
-          <button>¡CREA TU APP!</button>
+        <Link to="/pageregister" className="boton" >¡CREA TU APP!
+          </Link>
         </div>
       </div>
     );
@@ -68,7 +71,7 @@ class Register extends React.Component {
 class Login extends React.Component {
   render() {
     return (
-      <div class="text background">
+      <div class="text">
         <Greeting />
         <Oauth />
         <LoginData />
@@ -78,5 +81,5 @@ class Login extends React.Component {
   }
 }
 
-ReactDOM.render(<Login />, document.getElementById("root"));
-export default connect()(Login);
+//ReactDOM.render(<Login />, document.getElementById("root"));
+export default Login;

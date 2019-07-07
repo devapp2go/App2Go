@@ -5,7 +5,8 @@ import PageRegister from "./pages/PageRegister";
 import PageConfig from "./pages/PageConfig";
 import PageRegisterTwo from "./pages/PageRegisterTwo";
 import Orders from "./pages/Orders";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route, withRouter } from "react-router-dom";
+import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 export default () => (
   <Layout>
@@ -19,4 +20,5 @@ export default () => (
       </Switch>
     </BrowserRouter>
   </Layout>
-);
+
+  );

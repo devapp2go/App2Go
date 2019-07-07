@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/Register.css";
+import { Link } from "react-router-dom";
 
 class Register extends React.Component {
   render() {
@@ -30,7 +31,7 @@ class Register extends React.Component {
               <a href="www.google.com">Polìtica de Privacidad</a>
             </span>
             <br />
-            <input className="boton" type="submit" value="Siguiente" />
+            <Link to="/pageregistertwo" className="boton">Siguiente</Link>
           </div>
         </form>
       </div>

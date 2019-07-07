@@ -8,9 +8,8 @@ class Register extends React.Component {
         <form>
           <div>
             <h2 className="etiqueta">¡Registra tu App!</h2>
-            <input type="text" placeholder="Nombre" />
-            <br />
-            <input placeholder="Selecciona tu logo" />
+            <input class="text-box" type="text" placeholder="Nombre" />
+            <input class="text-box" placeholder="Selecciona tu logo" />
             <br />
           </div>
         </form>
