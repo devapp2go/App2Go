@@ -1,7 +1,6 @@
 .text{
     color:rgb(255, 255, 255);
     text-align: center;
-    
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -10,9 +9,6 @@
 
 }
 
-.background{
-    background-image: linear-gradient(to bottom, #006595, #00D3DD)
-}
 
 .oauth-google{
     width: 280px;

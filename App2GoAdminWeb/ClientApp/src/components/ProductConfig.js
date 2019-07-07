@@ -5,7 +5,9 @@ export default class ProductConfig extends Component {
     return (
       <div>
         <div className="contenedor">
+          <img src={process.env.PUBLIC_URL + "/media/img/plus_product.png"} />
           <h2 className="etiqueta">Productos</h2>
+
           <form>
             <input className="text-box" type="text" placeholder="Producto" />
             <input className="text-box" type="text" placeholder="Descripción" />
@@ -24,9 +26,6 @@ export default class ProductConfig extends Component {
               />
             </div>
           </form>
-        </div>
-        <div>
-          <button className="boton">Finalizar</button>
         </div>
       </div>
     );

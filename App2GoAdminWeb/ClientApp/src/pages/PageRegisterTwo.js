@@ -7,7 +7,7 @@ import "./styles/styles.css";
 class PageRegisterTwo extends React.Component {
   render() {
     return (
-      <div class="background">
+      <div>
         <NavBack />
         <RegisterApp />
         <Elements/>
